@@ -1,0 +1,101 @@
+/* Geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(85deg, #70befa, #70befa);
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+header .A-Culpa-e-das-Estrelas-logo {
+    max-width: 70%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Main */
+main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #169aff;
+    font-size: 2.0rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+h1 {
+    color: #0026ff;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* Botão de jogar */
+.btn-play {
+    background: linear-gradient(90deg, #5fafff, #46a5e0);
+    border: none;
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-play:hover {
+    background: linear-gradient(90deg, #7eebee, #00f7ff);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Rodapé */
+footer {
+    background-color: #76abf0;
+    color: #ffffff;
+    padding: 20px 0;
+    border-top: 2px solid #2905dd;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+/* Adaptação responsiva */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .btn-play {
+        font-size: 1rem;
+        padding: 12px 20px;
+    }
+}
+
+/* Importando fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');

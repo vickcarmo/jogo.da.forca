@@ -1,0 +1,89 @@
+/* forca.css */
+
+/* Definições globais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Rosa claro para o fundo */
+    color: #333;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #f8bbd0; /* Rosa mais escuro para o cabeçalho */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+h1 {
+    color: #d81b60; /* Rosa intenso para o título */
+    font-size: 2.5rem;
+}
+
+/* Estilo para a área do jogo */
+#jogo {
+    background-color: #ffffff; /* Fundo branco para o jogo */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dica e palavra */
+#dica {
+    color: #c2185b; /* Rosa escuro para a dica */
+}
+
+#palavra {
+    color: #e91e63; /* Rosa mais suave para a palavra */
+    letter-spacing: 2px;
+}
+
+/* Estilo para o campo de entrada */
+#guess {
+    border: 2px solid #e91e63; /* Rosa para a borda do campo de entrada */
+    border-radius: 4px;
+}
+
+/* Botões */
+.botoes .btn-primary {
+    background-color: #ec407a; /* Rosa médio para o botão de adivinhar */
+    border: none;
+}
+
+.botoes .btn-secondary {
+    background-color: #f06292; /* Rosa claro para o botão de novo jogo */
+    border: none;
+}
+
+.botoes .btn-primary:hover,
+.botoes .btn-secondary:hover {
+    opacity: 0.8;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #f8bbd0; /* Mesma cor do cabeçalho */
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para a área da forca */
+#forca {
+    border: 2px solid #e91e63; /* Rosa para a borda da área da forca */
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+/* Ajuste para o status e tentativas */
+#status {
+    color: #d32f2f; /* Vermelho para mensagens de status */
+}
+
+p[ud="attemps"] {
+    color: #f48fb1; /* Rosa claro para tentativas restantes */
+}
